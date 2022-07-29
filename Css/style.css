@@ -25,6 +25,14 @@ body {
 }
 
 /* Media Queries */
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .join {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media only screen and (min-width:576px) and (max-width:767px) {
 
     .e-larning-carousel-caption h1 {
@@ -37,6 +45,12 @@ body {
 
     .e-larning-carousel-caption p>a {
         font-size: small;
+    }
+
+    .join {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -55,6 +69,12 @@ body {
     .e-larning-carousel-caption p>a {
         font-size: 70%;
         padding: 3px 5px;
+    }
+
+    .join {
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
